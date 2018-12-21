@@ -8,7 +8,7 @@ import * as header from "../page-objects/partials/header"
 const URI = basePage.BASE_URI;
 
 const selectors = {
-    "searchInput": ".legacyOmnibox .legacyOmnibox-input"
+    "searchInput":     ".legacyOmnibox .legacyOmnibox-input"
 };
 
 export { URI, header, selectors }

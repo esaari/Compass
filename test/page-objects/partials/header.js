@@ -5,11 +5,11 @@
 
 const selectors = {
     "loggedOut": {
-        "loginButton": ".uc-globalHeader-rightContainer .uc-globalHeader-loggedOutMenu [data-tn=\"globalHeader-button-login\"]",
+        "loginButton":  ".uc-globalHeader-rightContainer .uc-globalHeader-loggedOutMenu [data-tn=\"globalHeader-button-login\"]",
         "signUpButton": ".uc-globalHeader-rightContainer .uc-globalHeader-loggedOutMenu [data-tn=\"globalHeader-button-register\"]"
     },
     "loggedIn": {
-        "userMenu": ".uc-globalHeader-rightContainer .uc-globalHeader-userMenu .uc-globalHeader-navDropdownItemBtn"
+        "userMenu":     ".uc-globalHeader-rightContainer .uc-globalHeader-userMenu .uc-globalHeader-navDropdownItemBtn"
     }
 };
 

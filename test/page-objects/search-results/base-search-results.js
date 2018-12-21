@@ -6,9 +6,9 @@
 const route = "search/";
 
 const selectors = {
-    "numberBedrooms": ".uc-lol-mainViewTranscluder .uc-listingCard-subStat--beds",
-    "numberBathrooms": ".uc-lol-mainViewTranscluder .uc-listingCard-subStat--baths",
-    "globalScriptObject": "script:not([src])"
+    "numberBedrooms":       ".uc-lol-mainViewTranscluder .uc-listingCard-subStat--beds",
+    "numberBathrooms":      ".uc-lol-mainViewTranscluder .uc-listingCard-subStat--baths",
+    "globalScriptObject":   "script:not([src])"
 };
 
 /**
