@@ -67,7 +67,6 @@ describe("Logs into the homepage and searches for 2-bedroom sales and rental lis
         const listingBedrooms = await helper.getAllInnerText(page, salesSearchResult.searchBasePageSelectors.numberBedrooms);
         let listingProperties = await helper.getInnerText(page, salesSearchResult.searchBasePageSelectors.globalScriptObject);
         const listingType = listingProperties.match(listingTypeRegEx)[0];
-
         // Loop through the text of each listing and assert each matches 2-bedroom
         for (let listing of listingBedrooms) {
             expect(listing).toBe("2 BD");
@@ -88,6 +87,5 @@ describe("Logs into the homepage and searches for 2-bedroom sales and rental lis
             expect(listing).toBe("2 BD");
         }
         expect(listingType).toContain("0");
-
     }, 20000);
 });
